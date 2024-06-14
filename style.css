@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Noto Sans", "Open Sans", sans-serif;
+    font-weight: 400;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f17c5e;
+    overflow: hidden;
+  }
+  
+  .img-container {
+    width: 60rem;
+    margin: 5rem auto 0;
+  }
+  
+  .img {
+    width: 20%;
+    object-fit: cover;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+  
+  
+  .nav-container {
+    justify-content: space-between;
+    width: 60rem;
+    margin: 1.5rem auto 0.6rem;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 0.7rem;
+    list-style: none;
+  }
+  
+  .second-li{
+   li{ 
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    font-weight: 700;}  
+  }
+
+  .list-item {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+
+    &:hover{
+        color: white;
+    }
+  }
+  
+  .container-lv2{
+    width: 60rem;
+    margin: 0 auto ;
+
+    .first-para{
+        font-size: 1.5rem;
+        font-weight: 900;  
+        line-height: 26px;
+        margin-bottom: 0.5rem;
+    }
+    .second-para{
+        font-size: 0.7rem;
+        font-weight: 700;  
+        margin-bottom:0.7rem;
+    }
+    .input-box{
+        padding: 0.6rem;
+        width:30rem;
+        border: 1px solid black;
+        outline: none;
+        background-color: transparent;
+        color: black;
+        font-weight: 400;
+        &:hover{
+            border: 1px solid white;
+        }
+    }
+    .input-box::placeholder {
+        color: black;
+        font-weight: 700;  
+        font-size: 0.7rem;
+    }
+    input:hover::placeholder { 
+        color: white;
+    }
+    .btn{
+        padding: 0.6rem;
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        margin-left: -0.25rem;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 0.8rem;
+       &:hover{ outline: 1px solid white;
+  }
+    }
+  }
